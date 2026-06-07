@@ -1,0 +1,23 @@
+#nav-bar{
+        display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(227, 230, 230);
+    border-bottom: 1px solid black;
+    height: 3rem;
+}
+.head{
+    display: flex;
+    width: 49vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.singup{
+        width: 40vw;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}

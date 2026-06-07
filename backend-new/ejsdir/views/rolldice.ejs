@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TO ROLL THE DICE CLICK THE BELOW BUTTON</h1>
+    <h1 class="answer"></h1>
+    <h3>this value come from computer(data base)</h3>
+    <h3><%= dice %></h3>
+    <button onclick="dice_value();">roll dice</button>
+</body>
+<script>
+    function dice_value(){
+        let value = Math.floor(Math.random() * 6) + 1;
+        let ele = document.querySelector('.answer');
+        ele.innerText = value;
+    }
+</script>
+</html>

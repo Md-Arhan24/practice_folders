@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: rgb(127, 129, 129);
+    justify-content: space-between;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.ham{
+    display: block;
+    width: 20px;
+    height: 5px;
+    background-color: black;
+    margin: 2px;
+    cursor: pointer;
+    
+}
+@media (max-width:400px ) {
+    .list ul{
+        display: none;
+    }
+
+}
+@media (min-width:400px ) {
+    .ham{
+        display: none;
+    }
+
+}

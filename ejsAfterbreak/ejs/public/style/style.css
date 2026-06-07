@@ -1,0 +1,24 @@
+ h1{
+            text-align: center;
+        }
+        #div1{
+            background-color: aquamarine;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .images img{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+        }
+        .images{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+        }
+body{
+    background-color: rgb(195, 158, 236);
+}

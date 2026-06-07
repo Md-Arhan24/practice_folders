@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.right{
+        border: 2px dashed rgba(0, 0, 0, 0.546);
+    width: 50vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.307);
+}
+.left{
+    text-align: start;
+    width: 31vw;
+}
+@media screen and (max-width:550px) {
+    .left{
+        display: none;
+    }
+    
+}
+.uplode{
+    font-size: 19vh;
+}

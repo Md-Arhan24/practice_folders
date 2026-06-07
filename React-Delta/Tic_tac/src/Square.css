@@ -1,0 +1,19 @@
+.square{
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+    /* existing rules */
+    margin: 0;
+  padding: 0;
+  vertical-align: middle;
+
+
+}
+/* one the most painful erro
+It appears you're seeing an unexpected space above the text "X" inside your button.square element. This is a common issue with inline-block elements and text, often related to the vertical-align property or the line-height of the container.
+
+Let's break down the possible causes and solutions:
+
+1. vertical-align property: Since your button has display: inline-block and vertical-align: baseline, and its parent (.Board) has display: block (not a flex or grid container by default), the text inside the button might be aligning to the baseline of an imaginary line within its parent, which can sometimes create extra space above it, especially if there are other inline elements or line-height discrepancies.
+
+Solution 1.1: Try setting vertical-align: middle; or vertical-align: top; on the button.*/

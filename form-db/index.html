@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-db</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        label{
+            margin-top: 10px;
+            margin-right: 50px;
+        }
+        input{
+            margin-top: 10px;
+            display: flex;
+            
+        }
+        .label3{
+            position: relative;
+    bottom: 15px;
+    right: -26px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>
+                Details
+            </legend>
+            <label for="
+            Nane">NAME:</label>
+            <input type="text" name="name" id="1" placeholder="enter the name"><br>
+            <label for="age">AGE:</label>
+            <input type="number" name="age" placeholder="enter the age"><br>
+            <label for="parent">FATHER/MOTHER:</label>
+            <input type="text" name="FATHER/mother" placeholder="enter parent name"><br>
+            <label for="gender">GENDER:</label>
+            <div class="none">
+            <input type="radio"><label for="male" class="label3">MALE</label> <input type="radio" > <label for="FEMALE" class="label3">FEMALE</label> 
+        </div>
+        </fieldset>
+        <button onclick="setInfo();">submit</button>
+    </form>
+</body>
+<script src="server.js"></script>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="/style.css">
+       
+</head>
+<body>
+    <h1 ><%- "welcome to instagram".toUpperCase(); %></h1>
+    <hr>
+    <div id="div1">
+    <div><h3>Account :</h3><h4><%= dataToSend.name %></h4></div>
+   <div><h3> <button>followers:</button></h3><h4><%= dataToSend.followers %></h4></div>
+   <div><h3> <button>following :</button></h3><h4><%= dataToSend.following %></h4></div>
+    </div>
+    <hr>
+    <h2>posts</h2>
+    <div class="images">
+        
+        
+        <% for(let p of dataToSend.posts){ %>
+            <div>
+            <img src="<%= p.image %>" alt="img">
+            <h3>likes : <%= p.likes %></h3>
+            <h3>comments : <%= p.comments %></h3>
+            </div>
+            <% } %>
+   
+    </div>
+
+</body>
+<script src="/code.js"></script>
+
+</html>

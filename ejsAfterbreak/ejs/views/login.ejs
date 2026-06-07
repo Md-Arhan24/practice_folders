@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+
+<body>
+    <h1>welcome to counter</h1>
+    <div style="color: aqua; height: 100vh; width: 100vw; display: flex; align-items: center; justify-content: center;">
+        <div style="border: 2px solid black;text-align: center; height: 60vh; width: 30vw; display: flex; flex-direction: column;column-gap: 5 vh;">
+            <h3 style="text-align: center; ">LOGIN</h3>
+            <div class="login">
+                <form action="/login" method="POST" id="login">
+                    <input type="text" name="username" placeholder="Username" required /><br>
+                    <input type="password" name="password" placeholder="Password" required /><br>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+
+            <div>
+                <input type="submit" name="login" id="submit">
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTER</title>
+</head>
+<body>
+    <h1>welcome to counter</h1>
+    
+    <form action="/counter" method="POST">
+  <input type="number" name="limit" placeholder="Enter a number" required />
+  <button type="submit">Generate Table</button>
+</form>
+
+<% if (numbers) { %>
+  <table border="1" cellpadding="10">
+    <% for (let i = 0; i < numbers.length; i += 10) { %>
+      <tr>
+        <% for (let j = i; j < i + 10 && j < numbers.length; j++) { %>
+          <td><%= numbers[j] %></td>
+        <% } %>
+      </tr>
+    <% } %>
+  </table>
+<% } %>
+</body>
+</html>

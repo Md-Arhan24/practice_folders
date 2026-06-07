@@ -1,0 +1,2 @@
+//for xml compile - mvn -f .\pom.xml clean compile
+//run the main file - & 'C:\Program Files\Java\jdk-22\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' -cp 'target/classes' 'com.photos.ui.Main'

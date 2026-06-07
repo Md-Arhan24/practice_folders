@@ -1,0 +1,9 @@
+.singup{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 25vw;
+}

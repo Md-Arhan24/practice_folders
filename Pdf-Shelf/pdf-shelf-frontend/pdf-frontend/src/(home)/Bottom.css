@@ -1,0 +1,17 @@
+.home-main{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-main-bottom{
+        padding: 2%;
+    }
+@media screen and (max-width:700px) {
+    .home-main{
+        flex-direction:column;
+    }
+    
+    
+}

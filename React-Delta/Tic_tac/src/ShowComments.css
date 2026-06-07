@@ -1,0 +1,21 @@
+#showCardCommet{
+    border: 1px solid black;
+    height: 50vh;
+    width: 70vw;
+    margin: 10vh 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#showComment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 2%;
+    
+}
